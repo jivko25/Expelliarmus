@@ -5,7 +5,7 @@ let express = require("express");
 let server = express();
 
 // Define the port to be used
-let listeningPort = 3000;
+let listeningPort = 8080;
 
 
 // Define route for the root URL
