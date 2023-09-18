@@ -13,8 +13,8 @@ RUN npm install
 # The rest of the code is copied into the container
 COPY . .
 
-# Port 8080 is exposed to enable access from outside
-EXPOSE 8080
+# Port 3000 is exposed to enable access from outside
+EXPOSE 3000
 
 # The command required to run the app is specified
 CMD [ "node", "app.js" ]

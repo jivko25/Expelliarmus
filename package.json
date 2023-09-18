@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node app.js",
     "dev" : "nodemon app.js",
-    "prod" : "docker run --rm -d -p 8080:8080/tcp expelliarmus:initial"
+    "prod" : "docker run --rm -d -p 3000:3000/tcp expelliarmus:initial"
   },
   "keywords": [],
   "author": "",
