@@ -7,6 +7,7 @@ let server = express();
 // Define the port to be used
 let listeningPort = 3000;
 
+
 // Define route for the root URL
 server.get("/", (request, response) => {
   response.send("My First Express JS Application");
